@@ -22,9 +22,9 @@ $headers = "From: $email_from \r\n";
 
 $headers .= "Reply To: $visitor_email \r\n";
 
-mail($to,email_subject,$email_body,$headers);
+mail($to,$url,$email_body,$headers);
 
-header("Location: index.html");
+header("Location: index.php?mailsend");
 
 
 
