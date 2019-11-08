@@ -4,27 +4,21 @@ if (isset($_POST['submit'])){
 $name = $_POST['name'];
 $url = $_POST['url'];
 
-$subject = "New Form Submit";
-
 $email_body = "User Name: $name.\n".
-"User Email: $visitor_email.\n".
 "User Message: $url.\n";
 
 
-$mailTo = "sardhot62@gmail.com";
-if (mail($to, $subject)){
+$To = "sardhot62@gmail.com";
+if (mail($to, $name, $url)){
     $success = "Thank you!"
 
  }
 
-
-$headers = "From: $email_from \r\n";
-
-$headers .= "Reply To: $visitor_email \r\n";
+$headers = "From: $name \r\n";
 
 mail($to,$url,$email_body,$headers);
 
-header("Location: index.html?mailsend");
+header("Location: index.html");
 
 }
 
