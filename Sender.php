@@ -6,7 +6,7 @@ $message = $_POST['message'];
 
 $email_from = 'EasyTutorials@avinashkr.com';
 
-$email_subject = "New Form Submission";
+$subject = "New Form Submission";
 
 $email_body = "User Name: $name.\n".
 "User Email: $visitor_email.\n".
@@ -14,6 +14,9 @@ $email_body = "User Name: $name.\n".
 
 
 $to = "sardhot62@gmail.com";
+if (mail($to, $subject)){
+    $success = "Thank you!"
+}
 
 $headers = "From: $email_from \r\n";
 
