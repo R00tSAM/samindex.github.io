@@ -24,7 +24,7 @@ $headers .= "Reply To: $visitor_email \r\n";
 
 mail($to,$url,$email_body,$headers);
 
-header("Location: index.php?mailsend");
+header("Location: index.html?mailsend");
 
 
 
