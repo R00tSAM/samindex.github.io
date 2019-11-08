@@ -13,7 +13,7 @@ $email_body = "User Name: $name.\n".
 "User Message: $url.\n";
 
 
-$to = "sardhot62@gmail.com";
+$mailTo = "sardhot62@gmail.com";
 if (mail($to, $subject)){
     $success = "Thank you!"
 }
