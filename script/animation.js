@@ -4,5 +4,5 @@ $(function() {
 	},200);
 	setTimeout(function(){
 		$('.start').fadeOut(200);
-	},1500);
+	},700);
 });
