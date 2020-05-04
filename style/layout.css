@@ -159,7 +159,7 @@ html, body {
 }
 
 .start {
-	background-color: #424242;
+	background-color: #27333d;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -177,7 +177,7 @@ html, body {
   width: 300px;
   height: 300px;
 }
-
+/*
 .tuna {
   animation: walk-cycle 1s steps(12) infinite;
   background: url(http://stash.rachelnabors.com/img/codepen/tuna_sprite.png) 0 0 no-repeat;
@@ -246,3 +246,4 @@ body {
     background: linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%),
     #d2d2d2 url(http://stash.rachelnabors.com/24ways2012/background_clouds.png);
 }
+*/
