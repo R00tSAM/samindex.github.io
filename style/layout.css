@@ -173,6 +173,6 @@ html, body {
 	top: 50%;
 	transform: translate(-50%, -50%);
 	display: none;
-	z-index: 9999;
+	z-index: 0;
 	width: 280px;
 }
