@@ -1,2 +1,2 @@
 # samindex.github.io
-Youtube Music Home page
+SAMIndex Youtube Music Home page
