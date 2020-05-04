@@ -33,7 +33,7 @@ div.wrapper{display:block; width:100%; margin:0; padding:0; text-align:left;}
 .row1, .row1 a{color:#C0BAB6; background-color:#333333;}
 .row2{color:#979797; background-color:#FFFFFF;}
 .row2 a{color:#FF9900; background-color:#FFFFFF;}
-.row3, .row3 a{color:#919191; background-color:#232323;}
+.row3, .row3 a{color:#919191; background-color:#424242;}
 
 
 
@@ -177,7 +177,7 @@ html, body {
   width: 300px;
   height: 300px;
 }
-
+/*
 .tuna {
   animation: walk-cycle 1s steps(12) infinite;
   background: url(http://stash.rachelnabors.com/img/codepen/tuna_sprite.png) 0 0 no-repeat;
@@ -246,3 +246,4 @@ body {
     background: linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%),
     #d2d2d2 url(http://stash.rachelnabors.com/24ways2012/background_clouds.png);
 }
+*/
