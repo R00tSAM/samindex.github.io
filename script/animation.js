@@ -1,12 +1,3 @@
-$(function() {
-	setTimeout(function(){
-		$('.start p').fadeIn(700);
-	},200);
-	setTimeout(function(){
-		$('.start').fadeOut(200);
-	},700);
-});
-
 (function () {
      var requestAnimationFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame || window.msRequestAnimationFrame || function (callback) {
              window.setTimeout(callback, 1000 / 60);
