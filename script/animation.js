@@ -1,8 +1,8 @@
 $(function() {
 	setTimeout(function(){
-		$('.start p').fadeIn(700);
-	},200);
+		$('.start p').fadeIn(900);
+	},300);
 	setTimeout(function(){
-		$('.start').fadeOut(200);
-	},700);
+		$('.start').fadeOut(400);
+	},900);
 });
