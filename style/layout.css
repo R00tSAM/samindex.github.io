@@ -177,8 +177,3 @@ html, body {
   width: 300px;
   height: 300px;
 }
-canvas {
-    position:absolute;
-    top:0;
-    left:0
-}
