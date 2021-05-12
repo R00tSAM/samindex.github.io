@@ -11,7 +11,7 @@ a{outline:none; text-decoration:none;}
 
 code{font-weight:normal; font-style:normal; font-family:Georgia, "404", Times, serif;}
 
-.fl_left{float:center;}
+.fl_left{float:left;}
 .fl_right{float:right;}
 
 img{margin:0; padding:0; border:none; line-height:normal; vertical-align:middle;}
