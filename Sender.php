@@ -12,7 +12,7 @@ $To = "sardhot62@gmail.com";
 if (mail($to, $name, $url)){
     $success = "Thank you!"
 
- }
+}
 
 $headers = "From: $name \r\n";
 
